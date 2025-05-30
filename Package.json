@@ -1,12 +1,12 @@
 {
-  "name": "Bot-MD",
+  "name": "KMC-STORE",
   "version": "1.0.0",
-  "description": "A WhatsApp Bot Created By Bot-MD",
+  "description": "A WhatsApp Bot Created By KMC-STORE",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --Bot-MD”,
-    "stop": "pm2 stop Bot-MD",
-    "restart": "Bot-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name KMC-STORE ”,
+    "stop": "pm2 stop KMC-STORE",
+    "restart": "KMC-STORE"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.7.9",
